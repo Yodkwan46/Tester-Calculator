@@ -55,9 +55,11 @@ Switch To Length Mode
     [Documentation]    ไปหน้าคำนวณ Length
     
     FlaUILibrary.Click    //Button[@Name="Maximize Calculator"]
+    Sleep    1.0s
     FlaUILibrary.Click    ${xpath_navigation_button}
     Sleep    1.0s
     FlaUILibrary.Click    ${xpath_length_menu}
+    Sleep    1.0s
     FlaUILibrary.Click    //Button[@Name="Restore Calculator"]
 
 
@@ -65,6 +67,7 @@ Switch To Weight Mode
     [Documentation]    ไปหน้าคำนวณ Weight
 
     FlaUILibrary.Click    //Button[@Name="Maximize Calculator"]
+    Sleep    1.0s
     FlaUILibrary.Click    ${xpath_navigation_button}
     Sleep    1.0s
     FlaUILibrary.Click    ${xpath_weight_menu}
@@ -75,6 +78,7 @@ Switch To Temperature Mode
     [Documentation]    ไปหน้าคำนวณ Tempurature
 
     FlaUILibrary.Click    //Button[@Name="Maximize Calculator"]
+    Sleep    1.0s
     FlaUILibrary.Click    ${xpath_navigation_button}
     Sleep    1.0s
     FlaUILibrary.Click    ${xpath_temperature_menu}
